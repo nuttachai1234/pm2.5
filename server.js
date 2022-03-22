@@ -44,7 +44,7 @@ function handleLocationEvent(event) {
             {
               "type": "uri",
               "label": "ข้อมูลย้อนหลัง",
-              "uri": row.historyUrl
+              "uri": "https://linecorp.com/"
             }
           ]
         }))
@@ -55,7 +55,7 @@ function handleLocationEvent(event) {
           "template": {
             "type": "carousel",
             "columns": pinData,
-            "imageAspectRatio": "rectangle",
+            "imageAspectRatio": "rectangle", 
             "imageSize": "cover"
           }
         }
